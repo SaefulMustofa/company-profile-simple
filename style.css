@@ -34,6 +34,21 @@ body {
     font-size: 20px;
 }
 
+.button {
+    text-decoration: none;
+    background-color: #fff;
+    color: darkcyan;
+    font-weight: 700;   
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: all 0.6s ease;
+}
+
+.button:hover {
+    transform: translateY(-8px);
+}
+
 header{
     position: fixed;
     top: 0;
@@ -52,7 +67,6 @@ header{
     font-weight: 700; 
     color: #fff;
     text-decoration: none;
-   
 }
 
 .navbar a {
